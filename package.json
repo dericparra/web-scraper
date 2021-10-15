@@ -1,0 +1,25 @@
+{
+  "name": "web-scraper",
+  "version": "1.0.0",
+  "description": "Web Scraper feito com Node.Js",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dericparra/web-scraper.git"
+  },
+  "author": "Deric Parra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dericparra/web-scraper/issues"
+  },
+  "homepage": "https://github.com/dericparra/web-scraper#readme",
+  "dependencies": {
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  }
+}
